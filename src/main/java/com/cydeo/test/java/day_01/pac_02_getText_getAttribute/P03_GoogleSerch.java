@@ -1,7 +1,7 @@
 package com.cydeo.test.java.day_01.pac_02_getText_getAttribute;
 
 import com.microsoft.playwright.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class P03_GoogleSerch {
     @Test

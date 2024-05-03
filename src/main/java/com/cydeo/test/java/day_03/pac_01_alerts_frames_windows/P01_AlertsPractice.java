@@ -1,6 +1,7 @@
 package com.cydeo.test.java.day_03.pac_01_alerts_frames_windows;
 
 
+import com.cydeo.test.java.utils.BrowserUtils;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
@@ -79,6 +80,20 @@ public class P01_AlertsPractice {
 
 
 
+        String s = page.locator("#result").textContent();
+
+
+        System.out.println("s = " + s);
+
+    }
+    @Test
+    public void test3(){
+     page.onceDialog(dialog -> dialog.accept("test"));
+        BrowserUtils.sleepWithThread(5);
+        page.locator("button")
+                //.nth(0)
+                .last().click();
+        BrowserUtils.sleepWithThread(5);
         String s = page.locator("#result").textContent();
 
 

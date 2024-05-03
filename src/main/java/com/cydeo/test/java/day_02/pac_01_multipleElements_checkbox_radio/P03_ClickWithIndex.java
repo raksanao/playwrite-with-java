@@ -1,13 +1,13 @@
 package com.cydeo.test.java.day_02.pac_01_multipleElements_checkbox_radio;
 
-import com.cydeo.test.java.day_02.utils.BrowserUtils;
+import com.cydeo.test.java.utils.BrowserUtils;
 
 import com.microsoft.playwright.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 
 import java.util.List;
-import java.util.regex.Pattern;
+
 
 public class P03_ClickWithIndex {
 

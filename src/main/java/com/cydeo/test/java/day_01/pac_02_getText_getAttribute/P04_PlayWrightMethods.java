@@ -2,7 +2,8 @@ package com.cydeo.test.java.day_01.pac_02_getText_getAttribute;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.AriaRole;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 public class P04_PlayWrightMethods {
     @Test

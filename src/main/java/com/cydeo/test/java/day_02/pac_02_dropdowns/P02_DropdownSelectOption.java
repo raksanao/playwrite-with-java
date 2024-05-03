@@ -1,10 +1,9 @@
 package com.cydeo.test.java.day_02.pac_02_dropdowns;
 
-import com.cydeo.test.java.day_02.utils.BrowserUtils;
+import com.cydeo.test.java.utils.BrowserUtils;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.SelectOption;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class P02_DropdownSelectOption {
     @Test

@@ -5,8 +5,9 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.options.AriaRole;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 
 public class P05_GetText_GetAtribute {
 
@@ -22,7 +23,7 @@ public class P05_GetText_GetAtribute {
         System.out.println(page.getByRole(AriaRole.HEADING).textContent());
        String actualTytle=page.getByRole(AriaRole.HEADING).textContent();
        String expectedTitle="Registration form";
-        Assert.assertEquals(actualTytle,expectedTitle);
+    Assertions.assertEquals(actualTytle,expectedTitle);
         String placeholder=page.querySelector("//input[@name='firstname']").getAttribute("placeholder");
         System.out.println(placeholder);
         page.close();

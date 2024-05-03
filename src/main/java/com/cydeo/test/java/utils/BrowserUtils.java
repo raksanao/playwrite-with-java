@@ -1,4 +1,4 @@
-package com.cydeo.test.java.day_02.utils;
+package com.cydeo.test.java.utils;
 
 import com.microsoft.playwright.Page;
 
